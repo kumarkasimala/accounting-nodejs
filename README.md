@@ -19,10 +19,12 @@ An easy way to get started with a Express server with MongoDB with Node.js.
 
 ## Installation
 
+- Clone Repository using Git
 - `git clone git@github.com:kkasimala/accounting-nodejs.git`
 - `cd accounting-nodejs`
 
-- Or Download Zip file
+- Or 
+- Download Zip file (https://github.com/kumarkasimala/accounting-nodejs/archive/main.zip)
 - Extract the zip into another fold.
 - Open VS Code
 - Add that folder Folder to WorkSpace
