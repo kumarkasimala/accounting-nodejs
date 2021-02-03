@@ -18,7 +18,8 @@ An easy way to get started with a Express server with MongoDB with Node.js. [Rea
 - `git clone git@github.com:kkasimala/accounting-nodejs.git`
 - `cd accounting-nodejs`
 - `npm install`
-- [start MongoDB](https://www.mongodb.com/try/download/community) https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514
+- [start MongoDB](https://www.mongodb.com/try/download/community) 
+- [Tutorial](https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514)
 - `npm start`
 - optional: include _.env_ in your _.gitignore_
 
