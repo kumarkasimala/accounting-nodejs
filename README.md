@@ -12,7 +12,7 @@ An easy way to get started with a Express server with MongoDB with Node.js.
 
 - [node & npm](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
-- [Mac MongoDB] (/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")
+- [Mac MongoDB] (https://zellwk.com/blog/install-mongodb/) (/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")
 - [git](https://git-scm.com/download/)
 - [Github Desktop](https://desktop.github.com/)
 
