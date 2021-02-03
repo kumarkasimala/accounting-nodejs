@@ -39,6 +39,28 @@ app.get('/', function (req, res) {
   res.render('login');
 });
 
+app.get('/register', function (req, res) {
+  res.render('register');
+});
+
+app.post('/login', function (req, res) {
+  console.log("---------------" + req.body['uname'] + "--------------");
+  res.send({"success":true, "uname":req.body['uname']}).status(200);
+});
+
+app.post('/signup', function (req, res) {
+  //Client Html 
+
+  //Build a Signup with First, Last Name, email and password fields
+  //Send A AJAX Request to url : "/signup"
+
+  //Server code
+
+  //Read params from Request "req.body['name']"
+  //Send back "Your registeration is successful 'req.body['name'] + req.body['name']';
+  res.send({"success":true}).status(200);
+});
+
 // * Routes * //
 
 app.use('/session', routes.session);
