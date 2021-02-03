@@ -12,6 +12,7 @@ An easy way to get started with a Express server with MongoDB with Node.js.
 
 - [node & npm](https://nodejs.org/en/)
 - [git](https://git-scm.com/download/)
+- [Github Desktop](https://desktop.github.com/)
 
 ## Installation
 
