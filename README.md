@@ -11,8 +11,9 @@ An easy way to get started with a Express server with MongoDB with Node.js.
 ## Softwares to Install
 
 - [node & npm](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/try/download/community)
+- [Windows][MongoDB](https://www.mongodb.com/try/download/community)
 - [Mac MongoDB] (https://zellwk.com/blog/install-mongodb/) (/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")
+
 - [git](https://git-scm.com/download/)
 - [Github Desktop](https://desktop.github.com/)
 
@@ -20,7 +21,14 @@ An easy way to get started with a Express server with MongoDB with Node.js.
 
 - `git clone git@github.com:kkasimala/accounting-nodejs.git`
 - `cd accounting-nodejs`
-- `npm install`
+
+- Or Download Zip file
+- Extract the zip into another fold.
+- Open VS Code
+- Add that folder Folder to WorkSpace
+- Open New Terminal in VS Code
+- Check NPM with this command : npm -version
+- Now all deps using `npm install`
 - [start MongoDB]
 - `npm start`
 - optional: include _.env_ in your _.gitignore_
