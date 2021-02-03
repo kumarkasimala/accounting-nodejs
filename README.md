@@ -30,7 +30,7 @@ An easy way to get started with a Express server with MongoDB with Node.js.
 - Add that folder Folder to WorkSpace
 - Open New Terminal in VS Code
 - Check NPM with this command : npm -version
-- Now all deps using `npm install`
+- Install all deps using `npm install`
 - [start MongoDB]
 - `npm start`
 - optional: include _.env_ in your _.gitignore_
