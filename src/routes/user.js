@@ -14,4 +14,20 @@ router.get('/:userId', async (req, res) => {
   return res.send(user);
 });
 
+router.post('/login', async (req, res) => {
+  const user = await req.context.models.User.findByLogin(
+    req.body.uname,
+    req.body.psw
+  );
+  return res.send(user);
+});
+
+router.post('/signup', async (req, res) => {
+  const user = await req.context.models.User.create({
+    username: req.body.uname,
+    password: req.body.psw
+  });
+  return res.render("signupSuccess");
+});
+
 export default router;

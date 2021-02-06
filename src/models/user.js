@@ -7,16 +7,20 @@ const userSchema = new mongoose.Schema({
   },
   password: {
     type: String
+  },
+  age: {
+    type : Number
   }
 });
 
-userSchema.statics.findByLogin = async function(login) {
+userSchema.statics.findByLogin = async function(uname, psw) {
   let user = await this.findOne({
-    username: login,
+    username: uname,
+    password: psw
   });
 
   if (!user) {
-    user = await this.findOne({ email: login });
+    user = await this.findOne({ email: uname });
   }
 
   return user;
